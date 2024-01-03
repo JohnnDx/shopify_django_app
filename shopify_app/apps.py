@@ -31,3 +31,4 @@ class ShopifyAppConfig(AppConfig):
     # to determine the permisssions your app will need.
     # SHOPIFY_API_SCOPE = os.environ.get('SHOPIFY_API_SCOPE', 'read_themes').split(',')
     SHOPIFY_API_SCOPE = ['read_themes', 'write_themes']
+ 
