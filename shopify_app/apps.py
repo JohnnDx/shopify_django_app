@@ -29,6 +29,6 @@ class ShopifyAppConfig(AppConfig):
 
     # See http://api.shopify.com/authentication.html for available scopes
     # to determine the permisssions your app will need.
-    # SHOPIFY_API_SCOPE = os.environ.get('SHOPIFY_API_SCOPE', 'read_themes').split(',')
-    SHOPIFY_API_SCOPE = ['read_themes', 'write_themes']
+    SHOPIFY_API_SCOPE = os.environ.get('SHOPIFY_API_SCOPE', 'read_themes').split(',')
+    # SHOPIFY_API_SCOPE = ['read_themes', 'write_themes']
  
